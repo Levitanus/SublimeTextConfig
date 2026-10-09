@@ -1,0 +1,60 @@
+{
+    "name": "Rust color scheme",
+    "rules": [
+        /* --- grey items --- */
+        {
+            "scope": "comment",
+            "foreground": "color(var(black) blend(#fff 50%))",
+        },
+        /* --- red items --- */
+        {
+            "scope": "storage.type.rust, punctuation.definition.generic.begin, punctuation.definition.generic.end, punctuation.definition.parens.begin, punctuation.definition.parens.end, punctuation.definition.brackets.begin, punctuation.definition.brackets.end, storage.type.impl.rust, meta.function.return-type.rust, variable.language, meta.function.parameters.rust, storage.type.impl.rust, storage.type.module.rust, storage.type.struct.rust, storage.type.enum.rust, keyword.other.rust",
+            "foreground": "var(red)"
+        },
+        {
+            "scope": "invalid",
+            "foreground": "var(white)",
+            "background": "var(magenta)"
+        },
+        {
+            "scope": "storage.type.function.rust, storage.modifier.lifetime.rust, keyword.control.rust, keyword.operator.rust, punctuation.accessor.dot.rust, keyword.control.rust, variable.other, keyword.operator.rust",
+            "foreground": "var(magenta)"
+        },
+        /* --- blue items --- */
+        {
+            "scope": "variable.other.constant, constant, variable.other.member, storage.type.rust, meta.generic.rust, support.type",
+            "foreground": "var(cyan)"
+        },
+        /* --- green items --- */
+        {
+            "scope": "storage.modifier.rust, variable.other.member, variable.member, support.function.rust, entity.name.macro.rust, support.macro.rust",
+            "foreground": "var(green)"
+        },
+        /* --- yellow items --- */
+        {
+            "scope": "string, variable.parameter, entity.name.function, entity.name - (entity.name.section | entity.name.tag | entity.name.label), meta.path",
+            "foreground": "var(yellow)",
+        },
+    ],
+    "variables":
+    {
+        "black":    "#1e272e",
+        "white":    "#ffffff",
+        "red":      "#ff3f34",
+        "green":    "#05c46b",
+        "yellow":   "#ffa801",
+        "blue":     "#3c40c6",
+        "magenta":  "#f53b57",
+        "cyan":     "#0fbcf9",
+        "white":    "#ffffff",
+    },
+    "globals":
+    {
+        "background": "var(black)",
+        "foreground": "#eaeaea",
+        "line_highlight": "#343c42",
+        "caret": "#f2777a",
+        "selection": "var(magenta)",
+        "selection_foreground": "var(white)"
+    },
+}

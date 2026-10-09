@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ayu",
+		"Darkula Color Scheme",
+		"Dracula Color Scheme",
+		"LSP",
+		"LSP-file-watcher-rust",
+		"LSP-json",
+		"LSP-rust-analyzer",
+		"Markdown Extended",
+		"Markdown Images",
+		"Package Control",
+		"Terminus",
+		"Theme - Afterglow",
+	],
+}

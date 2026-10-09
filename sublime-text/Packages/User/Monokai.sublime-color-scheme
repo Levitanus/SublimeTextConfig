@@ -1,0 +1,127 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"variables": {
+		"test": "hsl(180, 100%, 20%)",
+		"blue2": "hsl(170, 60%, 58%)",
+		"blue3": "hsl(190, 40%, 80%)",
+		"black3": "#242936",
+		"orange": "hsl(32, 98%, 60%)",
+		"yellow": "hsl(45, 85%, 75%)",
+		"yellow2": "hsl(90, 70%, 70%)",
+		"red3": "hsl(358, 90%, 65%)",
+	},
+	"globals": {},
+	"rules": [
+		{
+			"name": "Member Variable",
+			"scope": "variable.member",
+			"foreground": "var(orange)"
+		},
+		{
+			"name": "Function Definition",
+			"scope": "entity.name.function",
+			"foreground": "var(yellow2)"
+		},
+		{
+			"name": "Function Annotation",
+			"scope": "variable.annotation",
+			"foreground": "var(blue3)"
+		},
+		{
+			"name": "Storage Type",
+			"scope": "storage.type",
+			"foreground": "var(blue2)"
+		},
+		{
+			"name": "Keyword Declaration",
+			"scope": "keyword.declaration",
+			"foreground": "var(red3)"
+		},
+		{
+			"name": "Semantic Enum",
+			"scope": "meta.semantic-token.enum",
+			"foreground": "var(blue)"
+		},
+		{
+			"name": "Semantic Struct",
+			"scope": "meta.semantic-token.struct",
+			"foreground": "var(blue2)"
+		},
+		{
+			"name": "Semantic macro",
+			"scope": "meta.semantic-token.macro",
+			"foreground": "var(blue)"
+		},
+		{
+			"name": "Semantic namespace",
+			"scope": "meta.semantic-token.namespace",
+			"foreground": "var(blue3)"
+		},
+		{
+			"name": "Semantic Property",
+			"scope": "meta.semantic-token.property",
+			"foreground": "var(blue3)"
+		},
+		/*{
+			"name": "Function Call",
+			"scope": "variable.function",
+			"foreground": "var(blue)"
+		},*/
+		{
+			"name": "Punctuation Definition",
+			"scope": "punctuation.definition",
+			"foreground": "color(var(white) alpha(0.67))"
+		},
+		{
+			"name": "Punctuation Separator",
+			"scope": "punctuation.separator",
+			"foreground": "var(yellow3)"
+		},
+		{
+			"name": "Punctuation Terminator",
+			"scope": "punctuation.terminator",
+			"foreground": "var(yellow3)"
+		},
+		{
+			"name": "Punctuation Section",
+			"scope": "punctuation.section",
+			"foreground": "color(var(white) alpha(0.67))"
+		},
+		{
+			"name": "Punctuation Accessor",
+			"scope": "punctuation.accessor",
+			"foreground": "var(blue3)"
+		},
+		{
+			"name": "Annotation Punctuation",
+			"scope": "punctuation.definition.annotation",
+			"foreground": "var(red2)"
+		},
+		{
+			"name": "Language Variable",
+			"scope": "variable.language",
+			"foreground": "var(red)",
+			"font_style": "italic"
+		},
+		{
+			"name": "Member Access",
+			"scope": "punctuation.accessor",
+			"foreground": "var(blue3)"
+		},
+		{
+			"name": "YAML Key",
+			"scope": "entity.name.tag.yaml",
+			"foreground": "var(orange)"
+		},
+		{
+			"name": "Link",
+			"scope": "string.other.link",
+			"foreground": "var(blue2)"
+		},
+		{
+			"name": "Inline Code",
+			"scope": "markup.raw.inline",
+			"background": "color(var(white) alpha(0.094))"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+[flake8]
+
+ignore =
+    # do not assign a lambda expression, use a def
+    E731,
+    # line break before binary operator
+    W503,
+
+exclude =
+    .git,
+    .venv,
+    sublime_lib/vendor,
+
+max-line-length = 99
