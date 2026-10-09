@@ -1,0 +1,7 @@
+{
+	"rust_syntax_checking_include_tests": false,
+	"rust_phantom_style": "none",
+	"rust_gutter_style": "none",
+	"rust_region_style": "none",
+	"rust_syntax_checking": false,
+}
